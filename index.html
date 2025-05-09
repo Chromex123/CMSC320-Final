@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Final_Deliverable</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Final_Deliverable (1)</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7714,7 +7714,7 @@ Requirement already satisfied: six&gt;=1.5 in /usr/local/lib/python3.11/dist-pac
 <p>-Load and reshape each raw CSV into a pandas DataFrame, then call organize(df) to transpose it, promote the first row to column headers, and reset the index.</p>
 <p>-Tag every table with a new Car column (e.g. “BYD”, “General Motors”, etc.) so that we can tell them apart after merging.</p>
 <p>-Unify key line items (Goodwill, Inventories, Total_Equity, Accounts_Payable, Comprehensive_Income) via .assign(), pulling from each company's original column names.</p>
-<p>-Intersect &amp; combine by keeping only the columns present in all four tables, concatenating them into one bs_df, and dropping any rows missing a Report Date.</p>
+<p>-Intersect and combine by keeping only the columns present in all four tables, concatenating them into one bs_df, and dropping any rows missing a Report Date.</p>
 </div>
 </div>
 </div>
@@ -14752,7 +14752,7 @@ Random Forest R²: 80.118
 <p>Small sample size → one or two extreme points dominate the error.</p>
 <p><strong>Next Model:</strong></p>
 <p>Random Forest: R² ≈ 79.04</p>
-<p>It's till not great, but better than the straight line. The forest can bend around a couple of the large negative income points, reducing error.</p>
+<p>It's still not great, but better than the straight line. The forest can bend around a couple of the large negative income points, reducing error.</p>
 <p>What it tells you: There is structure beyond a straight line but the flexible tree ensemble can’t generalize effectively.</p>
 <p><strong>Overall:</strong></p>
 <p>The failure of both models indicates a lack of relationship here between the inventory and the income, meaning when taking this data as a guidline for investment that a savvy investor (such as someone using this tutorial) would not use inventory as a marker to determine where their investment goes, as it does not correlate to the success of the company.</p>
@@ -14777,7 +14777,8 @@ Random Forest R²: 80.118
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>This is the end of our tutorial on using dataframes, hypothesis testing, graphs, and machine learning to analyze trends in the balance sheets, cash flows, and income statements of leading automakers. You have learned how to (1) import CSVs as dataframes, clean and merge them, and extract important information from them, (2) use ANOVA, Kruskal Wallis, Tukey's post hoc, Dunn's post hoc, correlation statistical methods, and summary statistics to draw conclusions from data, (3) visualize trends in data using line, bar, scatter, and box plots, and (4) implementing machine learning by training and testing Linear Regression and Random Forest models on a dataset to predict the future revenue of car manufacturing companies. This process can be used to observe trends within a market, and reveal the successes and failures between competitors, as well as be used to predict th future position of companies to inform investment decisions. Someone, after following this tutorial, should be equipped not only to make evaulations on the data here but have the ability to extrapolate these skills to analyze other investment opportunities and place themslves in an adventageous position when selecting what investment opportunities to pursue. As machine learning continues to evolve, understanding the data science process behind its development and implementation in real-world scenarios will be crucial in navigating through the coming future.</p>
+<p>This is the end of our tutorial on using dataframes, hypothesis testing, graphs, and machine learning to analyze trends in the balance sheets, cash flows, and income statements of leading automakers. You have learned how to (1) import CSVs as dataframes, clean and merge them, and extract important information from them, (2) use ANOVA, Kruskal Wallis, Tukey's post hoc, Dunn's post hoc, correlation statistical methods, and summary statistics to draw conclusions from data, (3) visualize trends in data using line, bar, scatter, and box plots, and (4) implementing machine learning by training and testing Linear Regression and Random Forest models on a dataset to predict the future revenue of car manufacturing companies.</p>
+<p>This process can be used to observe trends within a market, and reveal the successes and failures between competitors, as well as be used to predict the future position of companies to inform investment decisions. Someone, after following this tutorial, should be equipped not only to make evaulations on the data here but have the ability to extrapolate these skills to analyze other investment opportunities and place themslves in an adventageous position when selecting what investment opportunities to pursue. As machine learning continues to evolve, understanding the data science process behind its development and implementation in real-world scenarios will be crucial in navigating through the coming future.</p>
 </div>
 </div>
 </div>
